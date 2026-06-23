@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koushik P Shetty - Web Developer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="logo">Koushik P Shetty</div>
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Web Developer Portfolio</h1>
+            <p class="hero-subtitle">Crafting elegant solutions to complex problems</p>
+            <p class="hero-description">I build responsive, user-friendly web applications with modern technologies</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="images/profile.jpg.jpeg" alt="Profile Photo" class="profile-image">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Hi, I'm Koushik P Shetty</h3>
+                    <p>
+                        I'm a passionate Web developer with strong interest developing and building interactive user interfaces.
+                        I focus on turning design ideas into functional websites using HTML, CSS, and JavaScript. 
+                    </p>
+                    <p>
+                        My journey in web development started with a curiosity about how websites work, and it has evolved into 
+                        a career where I continuously learn and adapt to new technologies.
+                    </p>
+
+                    <div class="about-stats">
+                        <div class="stat">
+                            <div class="stat-number" data-count="4">0</div>
+                            <div class="stat-label">Tasks Completed</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number" data-count="3">0</div>
+                            <div class="stat-label">Web Projects Built</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number" data-count="1">0</div>
+                            <div class="stat-label">Internship</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-info">
+                    <div class="info-section">
+                        <h4>Education</h4>
+                        <div class="info-item">
+                            <p class="info-title">Master of Computer Applications</p>
+                            <p class="info-subtitle">St Aloysius Deemed to be University,Beeri| Pursuing</p>
+                        </div>
+                    </div>
+
+                    <div class="info-section">
+                        <h4>Experience</h4>
+                        <div class="info-item">
+                            <p class="info-title">Web Development Intern</p>
+                            <p class="info-subtitle">Prodigy Infotech | May 2026 - Present</p>
+                            <p class="info-desc">
+                                Built 4 frontend projects:Responsive Landing Page with scroll effects,
+                                Stopwatch with lap timer,Tic-Tac-Toe game,and Portfolio website.
+                                Tech stack:HTML5, CSS3, JavaScript
+                            </p>
+                        </div>
+                      
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Responsive Design</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Express</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Django</span>
+                        <span class="skill-tag">SQL</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Tools & Platforms</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">Firebase</span>
+                        <span class="skill-tag">MongoDB</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Soft Skills</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">Team Leadership</span>
+                        <span class="skill-tag">Problem Solving</span>
+                        <span class="skill-tag">Communication</span>
+                        <span class="skill-tag">Project Management</span>
+                        <span class="skill-tag">Mentoring</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="placeholder-image">Project 1</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Responsive Landing Page</h3>
+                        <p>A modern, responsive landing page with smooth scroll effects, attractive animations, and cross-browser compatibility. Features a clean design that works perfectly on all devices.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS3</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="placeholder-image">Project 2</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Stopwatch Web Application</h3>
+                        <p>A fully functional stopwatch application with start, stop, pause, and reset buttons. Features lap timer functionality and a clean, intuitive user interface for easy time tracking.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS3</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="placeholder-image">Project 3</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Tic-Tac-Toe Web Application</h3>
+                        <p>An interactive Tic-Tac-Toe game where players can compete against each other. Features game state management, win detection, and a reset function for multiple rounds of play.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS3</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="placeholder-image">Project 4</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Personal Portfolio Website</h3>
+                        <p>A professional portfolio website showcasing skills, projects, and accomplishments. Features smooth animations, responsive design, dark theme with accent colors, and a fully functional contact form.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS3</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                                <div class="project-card">
+                    <div class="project-image">
+                        <div class="placeholder-image">Project 5</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Weather Finder Application</h3>
+                        <p>A real-time weather application that fetches accurate weather data based on user's location or city search. Displays current conditions, temperature, humidity, wind speed, sunrise/sunset times, UV index, and other comprehensive weather metrics with beautiful animations.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS3</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Weather API</span>
+                            <span class="tag">Geolocation</span>
+                            <span class="tag">Responsive</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="weather-app/index.html" class="link">View Project</a>
+                            <a href="https://github.com" class="link">View Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">I'd love to hear from you. Send me a message!</p>
+            
+            <div class="contact-wrapper">
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h4>Email</h4>
+                        <p><a href="mailto:koushikpshetty41@gmail.com">koushikpshetty41@gmail.com</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <h4>Phone</h4>
+                        <p><a href="tel:+919743730744">+91 9743730744</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <h4>Location</h4>
+                        <p>Mangalore, Karnataka, India</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Koushik P Shetty. All rights reserved.</p>
+            <a href="#home" class="back-to-top" id="backToTop">↑ Back to Top</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
