@@ -1,4 +1,4 @@
-# Ashik Kumar - Personal Portfolio Website
+Koushik P Shetty - Personal Portfolio Website
 
 A modern, responsive portfolio website built with vanilla HTML5, CSS3, and JavaScript. Features a dark theme with vibrant accent colors, smooth animations, and interactive elements.
 
